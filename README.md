@@ -63,4 +63,5 @@ Registro, armazenamento e recuperação simplificada de logs via API REST.
 - Sistema de registro de logs via API REST;
 - Armazenamento de logs em banco de dados SQLite;
 - Recuperação de logs via API REST;
-- Teste unitário de registro, armazenamento e obtenção de logs.
+- Teste unitário de registro, armazenamento e obtenção de logs;
+- Coleção de requisições em [Postman](https://www.getpostman.com/products).
