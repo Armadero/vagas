@@ -1,0 +1,24 @@
+Delphi::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Projetos criados em Delphi 10.3.1 Architect
+
+OBS: Delphi 10.3.x Community Edition não possui suporte REST.
+
+Postman::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Inserir um registro de Log
+PUT http://localhost:8080/datasnap/rest/TLogControl/log
+Body:
+{ 
+   "table_name":"produtos",
+   "table_id":"7E3994F05C3E4EF994CE562CB182CC9D",
+   "field_name":"pro_nome",
+   "old_value":"mesa",
+   "new_value":"mesa1",
+   "user_id":"1",
+   "system_id":"1",
+   "op":"2",
+   "data_reg": "2019-08-27 12:00:00"
+}
+
+
+Recuperar registros de Log
+GET http://localhost:8080/datasnap/rest/TLogControl/log
